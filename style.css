@@ -119,7 +119,7 @@ footer .social-media a:hover {
 }
 
 
-.projects-grid {
+/* .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 40px;
@@ -170,4 +170,4 @@ footer .social-media a:hover {
 
 .project-card .btn:hover {
     background:green;
-}
+} */
