@@ -85,45 +85,10 @@ section {
     margin-top: 0;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #555;
-}
-
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    background: #333;
-    color: #fff;
-}
-
-footer .social-media {
-    margin-top: 1rem;
-}
-
-footer .social-media a {
-    color: #0073e6;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer .social-media a:hover {
-    text-decoration: underline;
-}
-
-
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     margin-top: 20px;
 }
@@ -172,4 +137,40 @@ footer .social-media a:hover {
 
 .project-card .btn:hover {
     background:green;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: #333;
+    color: #fff;
+}
+
+footer .social-media {
+    margin-top: 1rem;
+}
+
+footer .social-media a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
 }
