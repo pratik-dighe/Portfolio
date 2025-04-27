@@ -54,7 +54,7 @@ section {
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
-.skills-list, .courses-list {
+.skills-list {
     list-style: none;
     padding: 0;
     display: grid;
@@ -62,7 +62,7 @@ section {
     gap: 10px;
 }
 
-.skills-list li, .courses-list li {
+.skills-list li{
     background: #f4f4f4;
     padding: 10px;
     border-radius: 5px;
@@ -74,26 +74,32 @@ section {
     }
 }
 
+/* .courses-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+} */
+
+/* .courses-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    
+    &:hover {
+        background:#ccc;
+    }
+} */
+
+
 .project-card {
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem 0;
-    border-radius: 8px;
-}
-
-.project-card h3 {
-    margin-top: 0;
-}
-
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    margin-top: 20px;
-}
-
-.project-card {
+    
     background: #f4f4f4;
     border-radius: 10px;
     overflow: hidden;
@@ -106,6 +112,13 @@ section {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+}
+
 .project-card img {
     width: 100%;
     height: 200px;
@@ -113,6 +126,7 @@ section {
 }
 
 .project-card h3 {
+    margin-top: 0;
     font-size: 1.2rem;
     margin: 15px;
     color: #333;
